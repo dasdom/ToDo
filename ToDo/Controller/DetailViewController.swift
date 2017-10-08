@@ -34,7 +34,7 @@ class DetailViewController: UIViewController {
     
     titleLabel.text = item.title
     locationLabel.text = item.location?.name
-    descriptionLabel.text = item.itemDescription
+//    descriptionLabel.text = item.itemDescription
     
     if let timestamp = item.timestamp {
       let date = Date(timeIntervalSince1970: timestamp)
